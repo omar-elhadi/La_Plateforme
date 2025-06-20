@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  background-color: black;
+  color: antiquewhite;
+  transition: 0.5s;
+}
+
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.encadre {
+  border: 3px dashed blue;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #00ff1a, 0 0 10px #00ff08, 0 0 20px #1aff00;
+  }
+
+  50% {
+    text-shadow: 0 0 20px #15ff00, 0 0 30px #04ff00, 0 0 40px #0dff00;
+  }
+
+  100% {
+    text-shadow: 0 0 5px #00ff15, 0 0 10px #40ff00, 0 0 20px #04ff00;
+  }
+}
+
+h1 {
+  font-family: 'Courier New', monospace;
+  font-size: 2.5rem;
+  color: #fff;
+  animation: glow 2s infinite;
+}
+
+h2 {
+  font-family: 'Courier New', monospace;
+  font-size: 2.5rem;
+  color: #fff;
+  animation: glow 2s infinite;
+}

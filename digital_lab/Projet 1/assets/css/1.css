@@ -1,0 +1,30 @@
+
+body{
+    background-color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(183, 255, 0);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 252, 7);
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(208, 255, 0);
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(251, 255, 0);
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(225, 255, 0);
+}
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(217, 255, 0);
+}

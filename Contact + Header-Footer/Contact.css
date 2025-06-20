@@ -1,0 +1,75 @@
+
+form {
+    background: white;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgb(121, 59, 133);
+  }
+
+  .form-group {
+    margin: 20px;
+  }
+
+  .row {
+    display: flex;
+    gap: 40px;
+  }
+
+  .row .form-group {
+    flex: 1;
+    margin-bottom: 0;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  Select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  .formulaire {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul.autreC {
+ margin:0px;
+ padding: 0px;
+  } 
+
+  .email { 
+    color: black; 
+  }
+
+  .Contact2 {
+    padding: 50px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 30px;
+    box-shadow: 0 2px 8px rgb(121, 59, 133);
+  }
+
+  .AutreM {
+    padding:10px;
+  }
+
+  

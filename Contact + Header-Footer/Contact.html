@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <meta name="description" content="Roughly 155 characters">
+    <link rel="stylesheet" type="text/css" href="HeaderFooter.css">
+    <link rel="stylesheet" type="text/css" href="Contact.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../Page accueil HTML&CSS/Page_accueil.html"><img src="image/logo.png" alt="Logo la plateforme" height="100px" width="300px"></a>
+            <a href="/Plateforme2.0/QuiSommeNous.html">Qui sommes nous ? </a>
+            <a href="../coding school/codingschoolThibaut.html">Coding School</a>
+            <a href="../digital_lab">Digital Lab</a>
+            <a href="../executive school/executiveschool.html">Executive education</a>
+            <a href="../Projet 1/ia school.html">AI School</a>
+            <a href="../Projet 1/page cyber1.html">Cybersécurité</a>
+        </nav>
+    </header>
+    <main>
+        <div class="formulaire">
+            <h2>Contactez-nous !</h2>
+            <form action="/traitement" method="POST">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="sujet">Sujet :</label>
+                    <select name="sujet" id="sujet-select">
+                        <option value="option">Choisissez une option</option>
+                        <option value="Aide">L'aide à l'orientation</option>
+                        <option value="Informations">Informations sur les programmes</option>
+                        <option value="Relation">Relation Entreprise</option>
+                        <option value="Comm">Presse / Communication</option>
+                        <option value="candidatures">Suivis de candidatures</option>
+                        <option value="Recrutement">Recrutement</option>
+                        <option value="autre">Autre</option>
+                      </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Envoyer</button>
+            </form>
+            <div class="Contact2">
+            <h3>Une autre question ?</h3>
+            <ul class="autreC">
+                <p>Nous sommes aussi joignable par :</p>
+                <li class="AutreM">- Email : <a href="mailto:contact@laplateforme.io" class="email">contact@laplateforme.io</a></li>
+                <li class="AutreM">- Téléphone : 04.84.89.43.69 du lundi au vendredi de 9h à 17h</li>
+                <li class="AutreM">- Sur les réseaux sociaux : <br> 
+                <a href="https://www.facebook.com/LaPlateformeIO"><img src="https://img.icons8.com/ios/50/facebook--v1.png"
+                alt="Logo de facebook"></a>
+            <a href="https://www.instagram.com/LaPlateformeIO/"><img width="50" height="50" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1"/></a>
+            <a href="https://www.linkedin.com/school/laplateformeio/"><img src="https://img.icons8.com/ios/50/linkedin.png"
+                    alt="Logo de Linkdin"></a>
+            <a href="https://twitter.com/LaPlateformeIO"><img width="50" height="50" src="https://img.icons8.com/ios/50/twitterx--v1.png" alt="twitterx--v1"/></a></li>
+            </ul>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="info">
+                <div class="image">
+                    <a href="../Page accueil HTML&CSS/Page_accueil.html"><img src="image/logo.png" alt="Logo la plateforme" height="100px" width="300px"></a>
+                    <div class="resaux">
+                        <a href="https://www.facebook.com/LaPlateformeIO"><img src="image/facebook.png"
+                                alt="Logo de facebook"></a>
+                        <a href="https://www.instagram.com/LaPlateformeIO/"><img src="image/Insta.png"
+                                alt="Logo de Instagrame"></a>
+                        <a href="https://www.linkedin.com/school/laplateformeio/"><img src="image/Linkdin.png"
+                                alt="Logo de Linkdin"></a>
+                        <a href="https://twitter.com/LaPlateformeIO"><img src="image/X.png" alt="Logo de X"></a>
+                        <a href="https://www.youtube.com/c/LaPlateformeIO"><img src="image/Youtube.png"
+                                alt="Logo de Youtube"></a>
+                    </div>
+                </div>
+                <ul>
+                    <h4>La plateforme</h4>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">Qui sommes-nous ?</a></li>
+                </ul>
+                <ul>
+                    <h4>Informations</h4>
+                    <li>8 rue d’hozier, 13002 Marseille</li>
+                    <li>Tel : 04.84.89.43.69</li>
+                    <a href="../Contact + Header-Footer/Contact.html"/><button>Contactez-nous</button></a>
+                </ul>
+            </div>
+            <p class="credit">© La Plateforme - Établissement d'enseignement supérieur technique privé - Tous droits
+                réservés. | Mentions
+                légales | Cookies | Conditions générales de vente | Référent handicap : Christine Yorillo</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+nav {
+    display: flex;
+    flex-direction: rows;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background: #DA99E4;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(97, 14, 113);
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  
+nav {
+    display: flex;
+    flex-direction: rows;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background: #DA99E4;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(97, 14, 113);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size:20px;
+  }
+  
+footer {
+ background: #DA99E4;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  .info {
+    display:flex;
+    flex-direction:rows;
+    gap:70px;
+  }
+
+  p.credit {
+    font-size: 10px;
+  }
+
+  .footer {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    color: white;
+  }
+
+  button {
+    padding: 15px;
+    margin: 10px;
+    font-size: 14px;
+    border-radius: 20px;
+    color: white;
+    background: rgb(121, 59, 133);
+  }
+
+
+  .reseau {
+    display:flex;
+    flex-direction: row;
+  }
+
+
+/* En bas se trouve mon css */
+
+
+ .accueil {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 35px;
+ }
+
+ .presentation {
+  display: flex;
+  flex-direction: column;
+ }
+
+
+h1 {
+    color: white;
+    padding-top: 5%;
+    
+  }
+
+h5{
+   padding-top: 1%;
+    color: white;
+    padding-left: 1%;
+    background-color: #DA99E4;
+    width: 52%;
+    padding-bottom: 1%; 
+    padding-left: 1%;
+  }
+
+  body {
+    background-color: rgb(178, 110, 241);
+  }
+  
+  p {
+    color: white;
+  }

@@ -1,0 +1,140 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background: #DA99E4;
+    width: 100%;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header h1 {
+    color: #DA99E4;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    margin-top: 150px;
+}
+
+header p {
+    color: #fcfcfc;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+main {
+    margin: 40px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 30px;
+    background: #b86fc3;
+    border-radius: 0px;
+    box-shadow: 0 2px 16px rgba(186, 111, 195, 0.08);
+}
+
+h1 {
+    color: #f1eaf2;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+section h2 {
+    color: #f1eaf2;
+    font-size: 1.7rem;
+    margin-bottom: 12px;
+}
+
+section p {
+    color: #fbfbfb;
+    line-height: 1.7;
+    margin: 0;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(186, 111, 195, 0.12);
+}
+
+.partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px 0;
+    margin-left: 0px;
+}
+.partners-list img {
+    max-width: 120px;
+    height: auto;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(186, 111, 195, 0.10);
+    padding: 8px;
+    display: block;
+}
+
+.videos-container {
+    display: flex;
+    gap: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.videos-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer {
+ background: #DA99E4;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+    .info {
+        display:flex;
+        flex-direction:row;
+        gap:70px;
+    }
+
+    p.credit {
+        font-size: 10px;
+    }
+
+    .footer {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+        color: white;
+    }
+
+    button {
+        padding: 15px;
+        margin: 10px;
+        font-size: 14px;
+        border-radius: 20px;
+        color: white;
+        background: rgb(121, 59, 133);
+    }
+
+    .resaux {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }

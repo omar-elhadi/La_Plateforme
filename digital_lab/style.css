@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #da99e4;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  background: #da99e4;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(97, 14, 113);
+}
+
+#heading {
+  padding-top: 60px;
+  background-color: #da99e4;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 315px;
+  padding-bottom: 70px;
+}
+
+#heading h1 {
+  align-self: flex-start;
+  font-size: 60px;
+  letter-spacing: 3px;
+  font-family: "Inter", sans-serif;
+}
+
+#heading p {
+  font-size: large;
+  width: 55%;
+  margin: 10px 0px;
+}
+
+#heading button {
+  align-self: flex-start;
+  padding: 15px;
+  border: none;
+  border-radius: 0;
+}
+
+main {
+  margin: auto 15%;
+}
+
+#container #presentation-img {
+  width: 100%;
+}
+
+#container hr {
+  margin: 40px 0px;
+}
+
+#concept {
+  margin-top: 40px;
+}
+
+#concept h1 {
+  font-size: 70px;
+  font-weight: 400;
+}
+
+#concept p {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#concepts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+#concepts div {
+  width: 45%;
+}
+
+#concepts h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+#concepts p {
+  font-size: 20px;
+  font-weight: 350;
+}
+
+#concepts hr {
+  margin: 20px 0px;
+}
+
+#formation {
+  margin: 60px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#formation hr {
+  margin: 25px 0px;
+}
+
+#formation h1 {
+  font-size: 70px;
+  font-weight: 400;
+  margin: 30px 0px;
+}
+
+#formation-img {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+}
+
+#formation-img div {
+  max-width: 100%;
+  flex-grow: 3;
+}
+
+#formation-img h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+
+#formation-img p {
+  text-wrap: wrap;
+  font-size: 18px;
+}
+
+#formation-img p.date {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 30px 0px;
+}
+
+#formation-img button {
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 10px;
+  color: white;
+  background: rgb(121, 59, 133);
+}
+
+#formation-img button a {
+  text-decoration: none;
+  color: white;
+}
+
+#profils {
+  margin: 60px 0px;
+}
+
+#profils hr {
+  margin: 10px 0px;
+}
+
+#profils h2 {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+#profils p {
+  width: 70%;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+#circles {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  margin: 60px 0px;
+}
+
+#circles img {
+  width: 270px;
+}
+
+#cutter {
+  margin: 60px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  padding: 5px;
+}
+
+#cutter div {
+  width: 50%;
+}
+
+#cutter h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+#cutter p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#cutter hr {
+  margin: 10px 0px;
+}
+
+#testimonies {
+  margin: 80px 0px;
+}
+
+#testimonies hr {
+  margin: 25px 0px;
+}
+
+#testimonies h1 {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+#testimonies div {
+  width: 70%;
+  margin: 20px 0px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#team {
+  margin: 80px 0px;
+}
+
+#team hr {
+  margin: 25px 0px;
+}
+
+#team h1 {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+#team-img {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  margin: 60px 0px;
+}
+
+#team-img p {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#team-img span {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+footer {
+  background: #da99e4;
+}
+
+footer button {
+  padding: 15px;
+  margin: 10px;
+  font-size: 14px;
+  border-radius: 20px;
+  color: white;
+  background: rgb(121, 59, 133);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+p.credit {
+  font-size: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.reseau {
+  display: flex;
+  flex-direction: row;
+}
